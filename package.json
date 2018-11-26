@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
+    "postinstall": "ng build --aot --prod",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,7 +25,11 @@
     "express": "^4.16.4",
     "path": "^0.12.7",
     "rxjs": "^6.0.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "mongoose": "~3.8.13",
+    "morgan": "~1.1.1",
+    "body-parser": "~1.4.3",
+    "method-override": "~2.1.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.8",
